@@ -26,6 +26,8 @@ class Chakra extends Component {
     return (
       <div>
         <h1>Ejemplos de Chakra UI</h1>
+        <hr />
+        <br />
         <TableContainer>
           <Table size="sm">
             <Thead>
@@ -58,6 +60,31 @@ class Chakra extends Component {
         </TableContainer>
         <hr />
         <br />
+         
+
+   <table style={{border:"solid 1px black"}}>
+          <thead>
+            <tr>
+              <th>tabla normal</th>
+              <th>tabla normal2</th>
+              <th>tabla normal3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Cuerpo1</td>
+              <td>Cuerpo3</td>
+              <td>Cuerpo2</td>
+            </tr>
+            <tr>
+              <td>Cuerpo1</td>
+              <td>Cuerpo3</td>
+              <td>Cuerpo2</td>
+            </tr>
+          </tbody>
+        </table>
+        <hr />
+        <br />
         <OrderedList>
           <ListItem>Lorem ipsum dolor sit amet</ListItem>
           <ListItem>Consectetur adipiscing elit</ListItem>
@@ -66,6 +93,7 @@ class Chakra extends Component {
         </OrderedList>
         <hr />
         <br />
+
           <Button colorScheme="facebook" size="xs">
             Button
           </Button>
@@ -78,6 +106,10 @@ class Chakra extends Component {
           <Button colorScheme="telegram" size="lg">
             Button
           </Button>
+
+
+
+      
       </div>
     );
   }
